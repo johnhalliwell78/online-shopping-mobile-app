@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="day03.giangth.onlinemanagement.activity.LaptopActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:background="#42dcff"
+        app:titleTextColor="#ff3da1"
+        app:title="Laptop"
+        android:id="@+id/laptopToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/laptopListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </android.support.v7.widget.Toolbar>
+</LinearLayout>

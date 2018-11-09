@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context="day03.giangth.onlinemanagement.activity.PhoneActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:background="#42dcff"
+        app:titleTextColor="#ff3da1"
+        app:title="Phone"
+        android:id="@+id/phoneToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/phoneListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+    </android.support.v7.widget.Toolbar>
+</LinearLayout>
